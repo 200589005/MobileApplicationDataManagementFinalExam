@@ -24,6 +24,7 @@
 		18E5AA1C2C5BE74600B9A884 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18E5AA152C5BE74600B9A884 /* Poppins-Medium.ttf */; };
 		18E5AA1D2C5BE74600B9A884 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18E5AA162C5BE74600B9A884 /* Poppins-Regular.ttf */; };
 		18E5AA1E2C5BE74600B9A884 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18E5AA172C5BE74600B9A884 /* Poppins-SemiBold.ttf */; };
+		18E5AA222C5BF0DA00B9A884 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18E5AA212C5BF0DA00B9A884 /* GoogleService-Info.plist */; };
 		18FCF64B2C59AE0300DF79E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCF64A2C59AE0300DF79E5 /* AppDelegate.swift */; };
 		18FCF64D2C59AE0300DF79E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCF64C2C59AE0300DF79E5 /* SceneDelegate.swift */; };
 		18FCF64F2C59AE0300DF79E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCF64E2C59AE0300DF79E5 /* ViewController.swift */; };
@@ -50,6 +51,7 @@
 		18E5AA152C5BE74600B9A884 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		18E5AA162C5BE74600B9A884 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		18E5AA172C5BE74600B9A884 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		18E5AA212C5BF0DA00B9A884 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		18FCF6472C59AE0300DF79E5 /* FinalExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FCF64A2C59AE0300DF79E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18FCF64C2C59AE0300DF79E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				18FCF6532C59AE0400DF79E5 /* Assets.xcassets */,
 				18FCF6552C59AE0400DF79E5 /* LaunchScreen.storyboard */,
 				18FCF6582C59AE0400DF79E5 /* Info.plist */,
+				18E5AA212C5BF0DA00B9A884 /* GoogleService-Info.plist */,
 			);
 			path = FinalExam;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				18E5AA1A2C5BE74600B9A884 /* Poppins-Bold.ttf in Resources */,
 				18FCF6572C59AE0400DF79E5 /* Base in Resources */,
 				18E5AA1E2C5BE74600B9A884 /* Poppins-SemiBold.ttf in Resources */,
+				18E5AA222C5BF0DA00B9A884 /* GoogleService-Info.plist in Resources */,
 				18FCF6522C59AE0300DF79E5 /* Base in Resources */,
 				18E5AA1D2C5BE74600B9A884 /* Poppins-Regular.ttf in Resources */,
 			);
