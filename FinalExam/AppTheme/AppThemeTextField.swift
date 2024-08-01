@@ -1,7 +1,6 @@
 //
 //  AppThemeTextField.swift
-//  Dhanify
-//
+
 //  Created by Mitul Patel on 08/06/24.
 //
 

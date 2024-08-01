@@ -35,5 +35,9 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>$(PROJECT_NAME) will use camera for add movie picture</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>$(PROJECT_NAME) will use photo library for add movie picture</string>
 </dict>
 </plist>

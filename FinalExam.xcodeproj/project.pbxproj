@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		18E5A9F82C5BE3E600B9A884 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5A9F62C5BE3E600B9A884 /* SignupViewController.swift */; };
 		18E5A9F92C5BE3E600B9A884 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5A9F72C5BE3E600B9A884 /* LoginViewController.swift */; };
-		18E5AA022C5BE5FF00B9A884 /* NotificationName+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5A9FA2C5BE5FF00B9A884 /* NotificationName+Extension.swift */; };
 		18E5AA032C5BE5FF00B9A884 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5A9FB2C5BE5FF00B9A884 /* String+Extension.swift */; };
 		18E5AA042C5BE5FF00B9A884 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5A9FC2C5BE5FF00B9A884 /* UIButton+Extension.swift */; };
 		18E5AA052C5BE5FF00B9A884 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5A9FD2C5BE5FF00B9A884 /* UIColor+Extension.swift */; };
@@ -25,9 +24,30 @@
 		18E5AA1D2C5BE74600B9A884 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18E5AA162C5BE74600B9A884 /* Poppins-Regular.ttf */; };
 		18E5AA1E2C5BE74600B9A884 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18E5AA172C5BE74600B9A884 /* Poppins-SemiBold.ttf */; };
 		18E5AA222C5BF0DA00B9A884 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18E5AA212C5BF0DA00B9A884 /* GoogleService-Info.plist */; };
+		18E5AA252C5BF18100B9A884 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 18E5AA242C5BF18100B9A884 /* FirebaseAnalytics */; };
+		18E5AA272C5BF18100B9A884 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 18E5AA262C5BF18100B9A884 /* FirebaseAuth */; };
+		18E5AA292C5BF18100B9A884 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 18E5AA282C5BF18100B9A884 /* FirebaseAuthCombine-Community */; };
+		18E5AA2B2C5BF18100B9A884 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 18E5AA2A2C5BF18100B9A884 /* FirebaseCrashlytics */; };
+		18E5AA2D2C5BF18100B9A884 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 18E5AA2C2C5BF18100B9A884 /* FirebaseDatabase */; };
+		18E5AA2F2C5BF18100B9A884 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 18E5AA2E2C5BF18100B9A884 /* FirebaseFirestore */; };
+		18E5AA312C5BF18100B9A884 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 18E5AA302C5BF18100B9A884 /* FirebaseFirestoreCombine-Community */; };
+		18E5AA332C5BF18100B9A884 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 18E5AA322C5BF18100B9A884 /* FirebaseMessaging */; };
+		18E5AA352C5BF18100B9A884 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 18E5AA342C5BF18100B9A884 /* FirebaseStorage */; };
+		18E5AA372C5BF18100B9A884 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 18E5AA362C5BF18100B9A884 /* FirebaseStorageCombine-Community */; };
+		18E5AA392C5BF50100B9A884 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5AA382C5BF50100B9A884 /* DashboardViewController.swift */; };
+		18E5AA3B2C5C284800B9A884 /* db_movies.json in Resources */ = {isa = PBXBuildFile; fileRef = 18E5AA3A2C5C284800B9A884 /* db_movies.json */; };
+		18E5AA422C5C36E900B9A884 /* MovieListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5AA3D2C5C36E900B9A884 /* MovieListTableViewCell.swift */; };
+		18E5AA432C5C36E900B9A884 /* MovieListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E5AA3E2C5C36E900B9A884 /* MovieListTableViewCell.xib */; };
+		18E5AA442C5C36E900B9A884 /* AddMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5AA402C5C36E900B9A884 /* AddMoviesViewController.swift */; };
+		18E5AA452C5C36E900B9A884 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5AA412C5C36E900B9A884 /* MovieListViewController.swift */; };
+		18E5AA482C5C375400B9A884 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5AA472C5C375400B9A884 /* MovieModel.swift */; };
+		18E5AA4E2C5C3A8700B9A884 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 18E5AA4D2C5C3A8700B9A884 /* IQKeyboardManagerSwift */; };
+		18E5AA512C5C3DF500B9A884 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 18E5AA502C5C3DF500B9A884 /* SDWebImage */; };
+		18E5AA532C5C3DF500B9A884 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 18E5AA522C5C3DF500B9A884 /* SDWebImageMapKit */; };
+		18E5AA552C5C3E0900B9A884 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5AA542C5C3E0900B9A884 /* UIImage+Extension.swift */; };
+		18E5AA572C5C3EF500B9A884 /* CameraAndGalleryPermisson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5AA562C5C3EF500B9A884 /* CameraAndGalleryPermisson.swift */; };
 		18FCF64B2C59AE0300DF79E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCF64A2C59AE0300DF79E5 /* AppDelegate.swift */; };
 		18FCF64D2C59AE0300DF79E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCF64C2C59AE0300DF79E5 /* SceneDelegate.swift */; };
-		18FCF64F2C59AE0300DF79E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCF64E2C59AE0300DF79E5 /* ViewController.swift */; };
 		18FCF6522C59AE0300DF79E5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 18FCF6512C59AE0300DF79E5 /* Base */; };
 		18FCF6542C59AE0400DF79E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FCF6532C59AE0400DF79E5 /* Assets.xcassets */; };
 		18FCF6572C59AE0400DF79E5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 18FCF6562C59AE0400DF79E5 /* Base */; };
@@ -36,7 +56,6 @@
 /* Begin PBXFileReference section */
 		18E5A9F62C5BE3E600B9A884 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		18E5A9F72C5BE3E600B9A884 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		18E5A9FA2C5BE5FF00B9A884 /* NotificationName+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NotificationName+Extension.swift"; sourceTree = "<group>"; };
 		18E5A9FB2C5BE5FF00B9A884 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		18E5A9FC2C5BE5FF00B9A884 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		18E5A9FD2C5BE5FF00B9A884 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
@@ -52,10 +71,18 @@
 		18E5AA162C5BE74600B9A884 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		18E5AA172C5BE74600B9A884 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		18E5AA212C5BF0DA00B9A884 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		18E5AA382C5BF50100B9A884 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		18E5AA3A2C5C284800B9A884 /* db_movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = db_movies.json; sourceTree = "<group>"; };
+		18E5AA3D2C5C36E900B9A884 /* MovieListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListTableViewCell.swift; sourceTree = "<group>"; };
+		18E5AA3E2C5C36E900B9A884 /* MovieListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieListTableViewCell.xib; sourceTree = "<group>"; };
+		18E5AA402C5C36E900B9A884 /* AddMoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMoviesViewController.swift; sourceTree = "<group>"; };
+		18E5AA412C5C36E900B9A884 /* MovieListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		18E5AA472C5C375400B9A884 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		18E5AA542C5C3E0900B9A884 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		18E5AA562C5C3EF500B9A884 /* CameraAndGalleryPermisson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraAndGalleryPermisson.swift; sourceTree = "<group>"; };
 		18FCF6472C59AE0300DF79E5 /* FinalExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FCF64A2C59AE0300DF79E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18FCF64C2C59AE0300DF79E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18FCF64E2C59AE0300DF79E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18FCF6512C59AE0300DF79E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18FCF6532C59AE0400DF79E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18FCF6562C59AE0400DF79E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,6 +94,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E5AA332C5BF18100B9A884 /* FirebaseMessaging in Frameworks */,
+				18E5AA2D2C5BF18100B9A884 /* FirebaseDatabase in Frameworks */,
+				18E5AA532C5C3DF500B9A884 /* SDWebImageMapKit in Frameworks */,
+				18E5AA372C5BF18100B9A884 /* FirebaseStorageCombine-Community in Frameworks */,
+				18E5AA352C5BF18100B9A884 /* FirebaseStorage in Frameworks */,
+				18E5AA252C5BF18100B9A884 /* FirebaseAnalytics in Frameworks */,
+				18E5AA2B2C5BF18100B9A884 /* FirebaseCrashlytics in Frameworks */,
+				18E5AA512C5C3DF500B9A884 /* SDWebImage in Frameworks */,
+				18E5AA292C5BF18100B9A884 /* FirebaseAuthCombine-Community in Frameworks */,
+				18E5AA272C5BF18100B9A884 /* FirebaseAuth in Frameworks */,
+				18E5AA2F2C5BF18100B9A884 /* FirebaseFirestore in Frameworks */,
+				18E5AA4E2C5C3A8700B9A884 /* IQKeyboardManagerSwift in Frameworks */,
+				18E5AA312C5BF18100B9A884 /* FirebaseFirestoreCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +116,7 @@
 		18E5A9F42C5BE2F300B9A884 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				18E5AA3C2C5C36E000B9A884 /* MoviesList */,
 				18E5A9F52C5BE3DE00B9A884 /* Authentication */,
 			);
 			path = ViewControllers;
@@ -86,6 +127,7 @@
 			children = (
 				18E5A9F72C5BE3E600B9A884 /* LoginViewController.swift */,
 				18E5A9F62C5BE3E600B9A884 /* SignupViewController.swift */,
+				18E5AA382C5BF50100B9A884 /* DashboardViewController.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -93,7 +135,8 @@
 		18E5AA012C5BE5FF00B9A884 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				18E5A9FA2C5BE5FF00B9A884 /* NotificationName+Extension.swift */,
+				18E5AA562C5C3EF500B9A884 /* CameraAndGalleryPermisson.swift */,
+				18E5AA542C5C3E0900B9A884 /* UIImage+Extension.swift */,
 				18E5A9FB2C5BE5FF00B9A884 /* String+Extension.swift */,
 				18E5A9FC2C5BE5FF00B9A884 /* UIButton+Extension.swift */,
 				18E5A9FD2C5BE5FF00B9A884 /* UIColor+Extension.swift */,
@@ -126,6 +169,33 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
+		18E5AA3C2C5C36E000B9A884 /* MoviesList */ = {
+			isa = PBXGroup;
+			children = (
+				18E5AA402C5C36E900B9A884 /* AddMoviesViewController.swift */,
+				18E5AA3F2C5C36E900B9A884 /* Cell */,
+				18E5AA412C5C36E900B9A884 /* MovieListViewController.swift */,
+			);
+			path = MoviesList;
+			sourceTree = "<group>";
+		};
+		18E5AA3F2C5C36E900B9A884 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				18E5AA3D2C5C36E900B9A884 /* MovieListTableViewCell.swift */,
+				18E5AA3E2C5C36E900B9A884 /* MovieListTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		18E5AA462C5C36F800B9A884 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18E5AA472C5C375400B9A884 /* MovieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		18FCF63E2C59AE0300DF79E5 = {
 			isa = PBXGroup;
 			children = (
@@ -147,7 +217,8 @@
 			children = (
 				18FCF64A2C59AE0300DF79E5 /* AppDelegate.swift */,
 				18FCF64C2C59AE0300DF79E5 /* SceneDelegate.swift */,
-				18FCF64E2C59AE0300DF79E5 /* ViewController.swift */,
+				18E5AA3A2C5C284800B9A884 /* db_movies.json */,
+				18E5AA462C5C36F800B9A884 /* Model */,
 				18E5AA182C5BE74600B9A884 /* Font */,
 				18E5AA0F2C5BE6BF00B9A884 /* AppTheme */,
 				18E5AA012C5BE5FF00B9A884 /* Extension */,
@@ -177,6 +248,21 @@
 			dependencies = (
 			);
 			name = FinalExam;
+			packageProductDependencies = (
+				18E5AA242C5BF18100B9A884 /* FirebaseAnalytics */,
+				18E5AA262C5BF18100B9A884 /* FirebaseAuth */,
+				18E5AA282C5BF18100B9A884 /* FirebaseAuthCombine-Community */,
+				18E5AA2A2C5BF18100B9A884 /* FirebaseCrashlytics */,
+				18E5AA2C2C5BF18100B9A884 /* FirebaseDatabase */,
+				18E5AA2E2C5BF18100B9A884 /* FirebaseFirestore */,
+				18E5AA302C5BF18100B9A884 /* FirebaseFirestoreCombine-Community */,
+				18E5AA322C5BF18100B9A884 /* FirebaseMessaging */,
+				18E5AA342C5BF18100B9A884 /* FirebaseStorage */,
+				18E5AA362C5BF18100B9A884 /* FirebaseStorageCombine-Community */,
+				18E5AA4D2C5C3A8700B9A884 /* IQKeyboardManagerSwift */,
+				18E5AA502C5C3DF500B9A884 /* SDWebImage */,
+				18E5AA522C5C3DF500B9A884 /* SDWebImageMapKit */,
+			);
 			productName = FinalExam;
 			productReference = 18FCF6472C59AE0300DF79E5 /* FinalExam.app */;
 			productType = "com.apple.product-type.application";
@@ -205,6 +291,11 @@
 				Base,
 			);
 			mainGroup = 18FCF63E2C59AE0300DF79E5;
+			packageReferences = (
+				18E5AA232C5BF18000B9A884 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				18E5AA4C2C5C3A8600B9A884 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				18E5AA4F2C5C3DF500B9A884 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 18FCF6482C59AE0300DF79E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -221,11 +312,13 @@
 			files = (
 				18E5AA192C5BE74600B9A884 /* Poppins-Black.ttf in Resources */,
 				18E5AA1C2C5BE74600B9A884 /* Poppins-Medium.ttf in Resources */,
+				18E5AA432C5C36E900B9A884 /* MovieListTableViewCell.xib in Resources */,
 				18E5AA1B2C5BE74600B9A884 /* Poppins-Light.ttf in Resources */,
 				18FCF6542C59AE0400DF79E5 /* Assets.xcassets in Resources */,
 				18E5AA1A2C5BE74600B9A884 /* Poppins-Bold.ttf in Resources */,
 				18FCF6572C59AE0400DF79E5 /* Base in Resources */,
 				18E5AA1E2C5BE74600B9A884 /* Poppins-SemiBold.ttf in Resources */,
+				18E5AA3B2C5C284800B9A884 /* db_movies.json in Resources */,
 				18E5AA222C5BF0DA00B9A884 /* GoogleService-Info.plist in Resources */,
 				18FCF6522C59AE0300DF79E5 /* Base in Resources */,
 				18E5AA1D2C5BE74600B9A884 /* Poppins-Regular.ttf in Resources */,
@@ -239,19 +332,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18FCF64F2C59AE0300DF79E5 /* ViewController.swift in Sources */,
+				18E5AA482C5C375400B9A884 /* MovieModel.swift in Sources */,
+				18E5AA452C5C36E900B9A884 /* MovieListViewController.swift in Sources */,
 				18E5AA072C5BE5FF00B9A884 /* UIViewControllerExtensions.swift in Sources */,
 				18E5AA032C5BE5FF00B9A884 /* String+Extension.swift in Sources */,
 				18FCF64B2C59AE0300DF79E5 /* AppDelegate.swift in Sources */,
+				18E5AA442C5C36E900B9A884 /* AddMoviesViewController.swift in Sources */,
 				18E5AA052C5BE5FF00B9A884 /* UIColor+Extension.swift in Sources */,
 				18E5AA062C5BE5FF00B9A884 /* UIFontExt.swift in Sources */,
-				18E5AA022C5BE5FF00B9A884 /* NotificationName+Extension.swift in Sources */,
+				18E5AA392C5BF50100B9A884 /* DashboardViewController.swift in Sources */,
 				18E5A9F82C5BE3E600B9A884 /* SignupViewController.swift in Sources */,
+				18E5AA572C5C3EF500B9A884 /* CameraAndGalleryPermisson.swift in Sources */,
 				18E5AA042C5BE5FF00B9A884 /* UIButton+Extension.swift in Sources */,
 				18E5A9F92C5BE3E600B9A884 /* LoginViewController.swift in Sources */,
 				18E5AA082C5BE5FF00B9A884 /* UIViewExtensions.swift in Sources */,
 				18E5AA102C5BE6BF00B9A884 /* AppThemeButton.swift in Sources */,
 				18FCF64D2C59AE0300DF79E5 /* SceneDelegate.swift in Sources */,
+				18E5AA552C5C3E0900B9A884 /* UIImage+Extension.swift in Sources */,
+				18E5AA422C5C36E900B9A884 /* MovieListTableViewCell.swift in Sources */,
 				18E5AA112C5BE6BF00B9A884 /* AppThemeTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,6 +571,101 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		18E5AA232C5BF18000B9A884 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 11.0.0;
+			};
+		};
+		18E5AA4C2C5C3A8600B9A884 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = exactVersion;
+				version = 7.1.1;
+			};
+		};
+		18E5AA4F2C5C3DF500B9A884 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.19.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		18E5AA242C5BF18100B9A884 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18E5AA232C5BF18000B9A884 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		18E5AA262C5BF18100B9A884 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18E5AA232C5BF18000B9A884 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		18E5AA282C5BF18100B9A884 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18E5AA232C5BF18000B9A884 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		18E5AA2A2C5BF18100B9A884 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18E5AA232C5BF18000B9A884 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		18E5AA2C2C5BF18100B9A884 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18E5AA232C5BF18000B9A884 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		18E5AA2E2C5BF18100B9A884 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18E5AA232C5BF18000B9A884 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		18E5AA302C5BF18100B9A884 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18E5AA232C5BF18000B9A884 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		18E5AA322C5BF18100B9A884 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18E5AA232C5BF18000B9A884 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		18E5AA342C5BF18100B9A884 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18E5AA232C5BF18000B9A884 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		18E5AA362C5BF18100B9A884 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18E5AA232C5BF18000B9A884 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		18E5AA4D2C5C3A8700B9A884 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18E5AA4C2C5C3A8600B9A884 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		18E5AA502C5C3DF500B9A884 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18E5AA4F2C5C3DF500B9A884 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		18E5AA522C5C3DF500B9A884 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18E5AA4F2C5C3DF500B9A884 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 18FCF63F2C59AE0300DF79E5 /* Project object */;
 }
