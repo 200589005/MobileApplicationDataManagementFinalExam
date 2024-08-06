@@ -21,9 +21,7 @@ class SignupViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        txtEmail.text = "mitulyaar92@gmail.com"
-        txtPassword.text = "12345678"
-        txtConfirmPassword.text = "12345678"
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
